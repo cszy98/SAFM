@@ -1,4 +1,4 @@
-# Semantic-shape Adaptive Feature Modulation for Semantic Image Synthesis
+# [Semantic-shape Adaptive Feature Modulation for Semantic Image Synthesis](https://arxiv.org/pdf/2203.16898)
 
 ### Introduction
 

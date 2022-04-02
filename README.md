@@ -51,7 +51,7 @@ If you find our work useful in your research or publication, please cite:
 ```
 @article{lv2022semantic,
   title={Semantic-shape Adaptive Feature Modulation for Semantic Image Synthesis},
-  author={Lv, Zhengyao and Li, Xiaoming and Li, Niu Zhenxing, Cao Bing and Zuo, Wangmeng},
+  author={Lv, Zhengyao and Li, Xiaoming and Niu, Zhenxing and Cao, Bing and Zuo, Wangmeng},
   booktitle = {IEEE Conference on Computer Vision and Pattern Recognition},
   year = {2022}
 }

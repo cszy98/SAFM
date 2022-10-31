@@ -5,6 +5,7 @@ Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses
 
 from data.pix2pix_dataset import Pix2pixDataset
 from data.image_folder import make_dataset
+import os
 
 
 class ADE20KDataset(Pix2pixDataset):
@@ -46,7 +47,7 @@ class ADE20KDataset(Pix2pixDataset):
         import os
         pth = opt.instance_root
         temp_path = sorted(os.listdir(pth))
-        instance_paths = [pth+x for x in temp_path]
+        instance_paths = [os.path.join(pth,x) for x in temp_path]
         return label_paths, image_paths, instance_paths
 
     # In ADE20k, 'unknown' label is of value 0.

@@ -24,7 +24,7 @@ python setup.py install
 
 ### Data Preparation
 
-Follow the dataset preparation process in [SPADE](https://github.com/NVlabs/SPADE). Besides, we get the instance maps of ADE20K from [instancesegmentation](https://github.com/CSAILVision/placeschallenge/tree/master/instancesegmentation).
+Follow the dataset preparation process in [SPADE](https://github.com/NVlabs/SPADE). Besides, we get the instance maps of ADE20K from [instancesegmentation](http://sceneparsing.csail.mit.edu/data/ChallengeData2017/annotations_instance.tar).
 
 ### Testing and Evaluate
 
